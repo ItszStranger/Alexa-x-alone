@@ -79,36 +79,48 @@ PM_START_TEXT = """
 
 *๏ ᴛʜɪs ɪs {} !
 
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+➻ ━━━━━━━━━━━━━━━━━━━━━━
+
+๏ ɪ ᴀᴍ  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.
+
+๏  ɴᴇᴛᴡᴏʀᴋ ➛ sᴛʀᴀɴɢᴇʀs
+๏  ғᴇᴀᴛᴜʀᴇ ➛ ᴠᴄ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴀɪ 
+
+๏ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ʙᴏᴛ, ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ.
+
+━━━━━━━━━━━━━━━━━━━━━━.
 
 ──────────────────
-๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+▸ ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ᴍᴇɴᴜ ᴀɴᴅ ᴍᴜꜱɪᴄ ʙᴜᴛᴛᴏɴ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴀʟᴇxᴀ ᴘʀᴏʙᴏᴛ..*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
+            text="•𝚂ᴜᴍᴍᴏɴ 𝙼ᴇ•",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+        InlineKeyboardButton(text="•ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ•", callback_data="Main_help"),
     ],
     [ 
-        InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text=f"Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="•ᴜᴘᴅᴀᴛᴇs•", url=f"https://t.me/strangers_bots"),
+        InlineKeyboardButton(text=f"•Sᴜᴩᴩᴏʀᴛ•", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="Bᴏᴛ Iɴғᴏ", callback_data="alone_"),
-        InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", callback_data="source_"),
+        InlineKeyboardButton(text="•𝙰ʟᴇxᴀ Iɴғᴏ•", callback_data="alone_"),
+        InlineKeyboardButton(text="•ᴄʜᴀᴛ ɢʀᴘ•", url=f"https://t.me/DreamyworldxD",
     ],
     
 
 ]
 
 HELP_STRINGS = f"""
-» *{BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ*"""
+» *{BOT_NAME}  ๏ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.
+
+๏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ➠ / *"""
 
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
@@ -217,11 +229,11 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.4)
-            lol.edit_text("🎊")
+            lol.edit_text("✨")
             time.sleep(0.5)
-            lol.edit_text("⚡")
+            lol.edit_text("💫")
             time.sleep(0.3)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            lol.edit_text("sᴛʀᴀɴɢᴇʀ ʜᴇʀᴇ ʙᴀʙʏ... ")
             time.sleep(0.4)
             lol.delete()
             
@@ -382,23 +394,23 @@ def Alone_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Sᴜᴩᴩᴏʀᴛ", callback_data="alone_support"
+                            text="•Sᴜᴩᴩᴏʀᴛ•", callback_data="alone_support"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs 💁", callback_data="Main_help"
+                            text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="Main_help"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="•ᴅᴇᴠᴇʟᴏᴩᴇʀ•", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="Sᴏᴜʀᴄᴇ",
-                            callback_data="source_",
+                            text="•ᴜᴘᴅᴀᴛᴇs•",
+                            url=f"https://t.me/strangers_bots",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="alone_back"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="alone_back"),
                     ],
                 ]
             ),
@@ -450,16 +462,16 @@ def AloneRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-                        InlineKeyboardButton(text="Mᴜsɪᴄ 🎧", callback_data="Music_")
+                        InlineKeyboardButton(text="•ᴍᴀɴᴀɢᴇᴍᴇɴᴛ•", callback_data="help_back"),
+                        InlineKeyboardButton(text="•Mᴜsɪᴄ•", callback_data="Music_")
                     ],
                     [
-                        InlineKeyboardButton(text="💁 Bᴀsɪᴄ ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="Exᴘᴇʀᴛ 👮", callback_data="expert_help")
+                        InlineKeyboardButton(text="•Bᴀsɪᴄ•", callback_data="basic_help"),
+                        InlineKeyboardButton(text="•ᴀᴅᴠᴀɴᴄᴇᴅ•", callback_data="expert_help")
                     ],
                     [
-                        InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
-                        InlineKeyboardButton(text="Dᴏɴᴀᴛɪᴏɴ 🎉", callback_data="donation_help") 
+                        InlineKeyboardButton(text="•ᴜʟᴛʀᴀ ᴄᴍɴᴅ•", callback_data="advance_help"),
+                        InlineKeyboardButton(text="•Dᴏɴᴀᴛɪᴏɴ•", callback_data="donation_help") 
                     ],
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="alone_back")]
                 ]
@@ -576,7 +588,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             reply_markup=InlineKeyboardMarkup(
                 [ 
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/AloneXBots"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="alone_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/strangers_bots"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="alone_support")
                     ]
                 ]
             ),
